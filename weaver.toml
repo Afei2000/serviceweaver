@@ -1,0 +1,10 @@
+[serviceweaver]
+binary = "hello.exe"
+
+[multi]
+listeners.hello = {address = "localhost:12345"}
+
+
+[./revweser/Reverser]
+Driver = "mysql"
+Source = "root:123456@tcp(localhost:3306)/"
