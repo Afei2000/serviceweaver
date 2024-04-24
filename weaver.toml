@@ -4,7 +4,6 @@ binary = "hello.exe"
 [multi]
 listeners.hello = {address = "localhost:12345"}
 
-
-[./revweser/Reverser]
+["github.com/Afei2000/serviceweaver/reverser/Reverser"]
 Driver = "mysql"
 Source = "root:123456@tcp(localhost:3306)/"
